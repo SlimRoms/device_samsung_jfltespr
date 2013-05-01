@@ -22,7 +22,6 @@
 TARGET_OTA_ASSERT_DEVICE := jfltespr
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/jfltespr/kernel
-#TARGET_KERNEL_CONFIG         := jf_spr_defconfig
-#TARGET_KERNEL_VARIANT_CONFIG := jf_defconfig
-#TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
+TARGET_KERNEL_CONFIG         := jf_spr_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := jf_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
