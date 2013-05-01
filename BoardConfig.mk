@@ -12,16 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+# inherit from common JF
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jfltespr/BoardConfigVendor.mk
 
-# Inherit from qcom-common
--include device/samsung/jflte-common/BoardConfigCommon.mk
-
-TARGET_BOOTLOADER_BOARD_NAME := jfltespr
-TARGET_PREBUILT_KERNEL := device/samsung/jfltespr/kernel
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltespr
+
+# Kernel
+TARGET_PREBUILT_KERNEL := device/samsung/jfltespr/kernel
+#TARGET_KERNEL_CONFIG         := jf_spr_defconfig
+#TARGET_KERNEL_VARIANT_CONFIG := jf_defconfig
+#TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig

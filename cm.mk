@@ -1,18 +1,16 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, device/samsung/jfltespr/full_jfltespr.mk)
 
-# Release name
-PRODUCT_RELEASE_NAME := jfltespr
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/cdma.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/jfltespr/device_jfltespr.mk)
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltetspr TARGET_DEVICE=jfltespr BUILD_FINGERPRINT="samsung/jfltespr/jfltespr:4.2.2/JDQ39/L720VPUAMDC:user/release-keys" PRIVATE_BUILD_DESC="jfltespr-user 4.2.2 JDQ39 L720VPUAMDC release-keys"
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := jfltespr
 PRODUCT_NAME := cm_jfltespr
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := jfltespr
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_DEVICE := jfltespr
