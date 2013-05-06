@@ -27,3 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltetspr TARGET_DEVICE=jfltespr BU
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := slim_jfltespr
 PRODUCT_DEVICE := jfltespr
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SPH-L710
+PRODUCT_MANUFACTURER := Samsung
