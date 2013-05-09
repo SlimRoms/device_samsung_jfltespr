@@ -1,18 +1,18 @@
 [
   {
-    "repository": "CyanogenMod/android_device_samsung_qcom-common",
+    "repository": "SlimRoms/device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common"
-    "branch": "cm-10.1"
+    "branch": "jb4.2"
   },
   {
-    "repository": "CyanogenMod/android_device_samsung_msm8960-common",
+    "repository": "SlimRoms/device_samsung_msm8960-common",
     "target_path": "device/samsung/msm8960-common"
-    "branch": "cm-10.1"
+    "branch": "jb4.2"
   },
   {
-    "repository": "CyanogenMod/android_device_samsung_jf-common",
+    "repository": "SlimRoms/device_samsung_jf-common",
     "target_path": "device/samsung/jf-common"
-    "branch": "cm-10.1"
+    "branch": "jb4.2"
   },
   {
     "repository": "CyanogenMod/android_kernel_samsung_jf",
