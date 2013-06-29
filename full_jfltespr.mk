@@ -20,7 +20,9 @@
 # details, it only fundamentally contains two inherit-product
 # lines, full and maguro, hence its name.
 #
- 
+
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
