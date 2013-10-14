@@ -3,9 +3,8 @@ $(call inherit-product, device/samsung/jfltespr/full_jfltespr.mk)
 # Release name
 PRODUCT_RELEASE_NAME := jfltespr
 
-# CDMA APN list
-PRODUCT_COPY_FILES += \
-device/samsung/jfltespr/apns-conf-cdma.xml:system/etc/apns-conf.xml
+# Inherit some common Slim stuff.
+$(call inherit-product, vendor/slim/config/cdma.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
