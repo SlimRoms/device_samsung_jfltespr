@@ -15,9 +15,9 @@
     "branch": "kk4.4"
   },
   {
-    "repository": "CyanogenMod/android_kernel_samsung_jf",
+    "repository": "SlimRoms/kernel_samsung_jf",
     "target_path": "kernel/samsung/jf",
-    "branch": "cm-11.0"
+    "branch": "kk4.4"
   },
   {
     "repository":  "SlimRoms/proprietary_vendor_samsung",
