@@ -25,7 +25,7 @@
     "branch": "lp5.0-caf-8960"
   },
   {
-    "repository": "nicklovell23/android_device_samsung_jf-common",
+    "repository": "SlimRoms/device_samsung_jf-common",
     "target_path": "device/samsung/jf-common",
     "branch": "lp5.0"
   },
