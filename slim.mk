@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/jfltespr/full_jfltespr.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Slim stuff.
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=jfltespr \
@@ -14,5 +14,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-PRODUCT_NAME := cm_jfltespr
+PRODUCT_NAME := slim_jfltespr
 PRODUCT_DEVICE := jfltespr
